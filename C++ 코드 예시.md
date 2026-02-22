@@ -104,3 +104,25 @@ pq.pop(); // 30 삭제
  std::sort(v.rbegin(), v.rend()); // 내림차순 정렬
  bool found = std::binary_search(v.begin(), v.end(), 4); // 4를 찾는 이분탐색(반드시 정렬 후 사용)
  auto it = std::find(v.begin(), v.end(), 3); // 특정 값의 위치(Iterator) 찾기
+
+(5) C++ 입출력 가속기
+
+std::ios::sync_with_stdio(false);
+장점:cin과 cout의 속도를 scanf/printf 급으로 향상
+단점:이 코드를 쓰면 printf, scanf, getchar, puts 등 C언어 계열 입출력 함수 사용불가.
+
+std::cin.tie(NULL);
+입력받기전 매번 출력을 확인하는 과정을 생략해 응답속도가 최적화.
+
+(6)\n과 std::endl의 비교
+
+\n
+-속도가 빠름
+-데이터가 버퍼에만 쌓여있어서 갑자기 프로그램이 죽으면 로그가 손실됨
+-알고리즘 문제나 대량 데이터 처리할때 좋음
+
+std::endl
+-매번 버퍼를 비우기 때문에 속도가 느림
+-출력이 즉시 기록되어 안전함
+-디버깅이나 실시간 시스템,소량 출력할때 좋음
+
