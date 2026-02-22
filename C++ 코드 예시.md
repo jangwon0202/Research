@@ -102,7 +102,7 @@ pq.pop(); // 30 삭제
  std::vector<int> v = {3, 1, 4, 1, 5};
  std::sort(v.begin(), v.end()); // 오름차순 정렬
  std::sort(v.rbegin(), v.rend()); // 내림차순 정렬
- bool found = std::binary_search(v.begin(), v.end(), 4); // 4를 찾는 이분탐색(반드시 정렬 후 사용)
+ bool found = std::binary_search(v.begin(), v도엽.end(), 4); // 4를 찾는 이분탐색(반드시 정렬 후 사용)
  auto it = std::find(v.begin(), v.end(), 3); // 특정 값의 위치(Iterator) 찾기
 
 (5) C++ 입출력 가속기
