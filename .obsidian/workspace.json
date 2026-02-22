@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "알고리즘.md",
+                "file": "C++ 코드 예시.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "알고리즘"
+              "title": "C++ 코드 예시"
             }
           }
         ]
@@ -221,8 +221,10 @@
   "active": "42d13725d0969ae4",
   "lastOpenFiles": [
     "README.md",
+    "C++ 코드 예시.md",
+    "알고리즘.md",
+    "자료구조.md",
     "Research/알고리즘.md",
-    "Research/README.md",
-    "알고리즘.md"
+    "Research/README.md"
   ]
 }
