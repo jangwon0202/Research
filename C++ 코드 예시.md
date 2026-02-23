@@ -102,6 +102,7 @@ pq.pop(); // 30 삭제
  std::vector<int> v = {3, 1, 4, 1, 5};
  std::sort(v.begin(), v.end()); // 오름차순 정렬
  std::sort(v.rbegin(), v.rend()); // 내림차순 정렬
+ std::sort(v.begin(), v.end(), A); // A는 정렬의 룰(어떤식으로 정렬할지 함수 등 사용)
  bool found = std::binary_search(v.begin(), v도엽.end(), 4); // 4를 찾는 이분탐색(반드시 정렬 후 사용)
  auto it = std::find(v.begin(), v.end(), 3); // 특정 값의 위치(Iterator) 찾기
 
@@ -126,3 +127,10 @@ std::endl
 -출력이 즉시 기록되어 안전함
 -디버깅이나 실시간 시스템,소량 출력할때 좋음
 
+(7)const 상수
+
+ex) bool compare(const Point& a, const Point& b) { ... }
+const 코드가 있다면 const는 이 함수 내에서 상수기 때문에 절대 변할수없음.
+만약 a=10 이런식으로 코드를 짜면 에러가 뜬다.
+
+(8)구조체
