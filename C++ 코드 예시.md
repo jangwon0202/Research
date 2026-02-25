@@ -152,3 +152,5 @@ bool compare(const Point& a, const Point& b) { //a라는 상자에 x,y가 들어
 
 (1)은 a.x ==b.x라면 a.y와 b.y를 비교해서 더 작은 숫자가 앞으로 가게함(오름차순)
 내림차순은 return a.y > b.y;
+
+(8) void A(int x) { }

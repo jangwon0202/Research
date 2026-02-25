@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ 코드 예시.md",
+                "file": "알고리즘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++ 코드 예시"
+              "title": "알고리즘"
+            }
+          },
+          {
+            "id": "c74c874ef304320f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타 정보.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "기타 정보"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,17 +147,32 @@
             }
           },
           {
+            "id": "2d3b3f4ea5f2c0ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C++ 코드 예시.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "C++ 코드 예시 의 개요"
+            }
+          },
+          {
             "id": "d25f38592c029956",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘.md",
+                "file": "C++ 코드 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "알고리즘 의 나가는 링크"
+              "title": "C++ 코드 예시 의 나가는 링크"
             }
           },
           {
@@ -175,21 +205,6 @@
             }
           },
           {
-            "id": "2d3b3f4ea5f2c0ac",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "알고리즘.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "알고리즘 의 개요"
-            }
-          },
-          {
             "id": "9bd9b4d38b25701c",
             "type": "leaf",
             "state": {
@@ -218,9 +233,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42d13725d0969ae4",
+  "active": "c74c874ef304320f",
   "lastOpenFiles": [
     "알고리즘.md",
+    "기타 정보.md",
+    "무제",
     "C++ 코드 예시.md",
     "README.md",
     "자료구조.md",
