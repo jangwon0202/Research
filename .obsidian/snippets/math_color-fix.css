@@ -1,0 +1,25 @@
+/* 1. 편집기(Live Preview) 모드에서 코드 블록 색상 제거 */
+.cm-s-obsidian .cm-inline-code,
+.cm-s-obsidian .cm-codeblock,
+.cm-embed-block.markdown-rendered code,
+.cm-content .cm-token {
+    color: var(--text-normal) !important;
+}
+
+/* 2. 읽기(Reading) 모드 및 코드 블록 내부의 구문 강조 무력화 */
+code[class*="language-"],
+pre[class*="language-"],
+span[class*="token"] {
+    color: inherit !important;
+    background: none !important;
+}
+
+/* 3. 특정 요소(빨간색, 노란색 등) 강제 초기화 */
+.token.keyword, .token.operator, .token.number, .token.punctuation, .token.function, .token.class-name {
+    color: inherit !important;
+}
+
+/* 4. 수식($$) 내부 색상까지 한 번 더 방어 */
+.math, .math-block, .math-inline, .MathJax {
+    color: var(--text-normal) !important;
+}
