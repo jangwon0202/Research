@@ -39,14 +39,30 @@
             "id": "b72cee4cd8e2c4ee",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "C++ 코드 예시.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++ 코드 예시"
+            }
+          },
+          {
+            "id": "509101ecff5c6e7b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/게임개발.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "게임개발"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -240,15 +256,20 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b72cee4cd8e2c4ee",
+  "active": "509101ecff5c6e7b",
   "lastOpenFiles": [
+    "기타 정보.md",
+    "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
+    "Excalidraw/게임개발.md",
+    "Excalidraw/무제.md",
     "C++ 코드 예시.md",
+    "Excalidraw",
     "자료구조.md",
     "주식.md",
-    "기타 정보.md",
     "README.md",
     "알고리즘.md",
     "무제",
