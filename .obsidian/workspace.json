@@ -53,12 +53,14 @@
             "id": "509101ecff5c6e7b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/게임개발.md"
+                "file": "기타 정보.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "게임개발"
+              "icon": "lucide-file",
+              "title": "기타 정보"
             }
           }
         ],
@@ -262,16 +264,19 @@
   },
   "active": "509101ecff5c6e7b",
   "lastOpenFiles": [
-    "기타 정보.md",
-    "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
-    "Excalidraw/게임개발.md",
-    "Excalidraw/무제.md",
-    "C++ 코드 예시.md",
-    "Excalidraw",
+    "유니티.md",
     "자료구조.md",
     "주식.md",
+    "C++ 코드 예시.md",
     "README.md",
+    "Pasted image 20260312221243.png",
+    "게임 개발/게임 개발 draw.md",
+    "게임 개발/게임 개발 text.md",
+    "기타 정보.md",
     "알고리즘.md",
+    "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
+    "Excalidraw/무제.md",
+    "게임 개발",
     "무제",
     "Research/알고리즘.md",
     "Research/README.md"
