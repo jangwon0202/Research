@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타 정보.md",
+                "file": "알고리즘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기타 정보"
+              "title": "알고리즘"
             }
           }
         ],
@@ -264,16 +264,16 @@
   },
   "active": "509101ecff5c6e7b",
   "lastOpenFiles": [
+    "주식.md",
+    "알고리즘.md",
+    "기타 정보.md",
     "유니티.md",
     "자료구조.md",
-    "주식.md",
     "C++ 코드 예시.md",
     "README.md",
     "Pasted image 20260312221243.png",
     "게임 개발/게임 개발 draw.md",
     "게임 개발/게임 개발 text.md",
-    "기타 정보.md",
-    "알고리즘.md",
     "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
     "Excalidraw/무제.md",
     "게임 개발",
