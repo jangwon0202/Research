@@ -53,14 +53,14 @@
             "id": "509101ecff5c6e7b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "알고리즘.md",
-                "mode": "source",
-                "source": false
+                "aFile": "C++ 코드 예시.md",
+                "bFile": "C++ 코드 예시.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "알고리즘"
+              "icon": "diff",
+              "title": "Diff: C++ 코드 예시  (Working Tree)"
             }
           }
         ],
@@ -264,14 +264,14 @@
   },
   "active": "509101ecff5c6e7b",
   "lastOpenFiles": [
-    "주식.md",
-    "알고리즘.md",
-    "기타 정보.md",
-    "유니티.md",
-    "자료구조.md",
     "C++ 코드 예시.md",
     "README.md",
     "Pasted image 20260312221243.png",
+    "자료구조.md",
+    "유니티.md",
+    "알고리즘.md",
+    "주식.md",
+    "기타 정보.md",
     "게임 개발/게임 개발 draw.md",
     "게임 개발/게임 개발 text.md",
     "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",

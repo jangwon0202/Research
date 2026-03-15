@@ -21,7 +21,7 @@
  (1)  string  - std::string 객체를 다룸
  (2)  memory  - 스마트 포인터(unique_ptr, shared_ptr)를 지원. 메모리 누수를 막을때 사용
  
-2. 스택(Stack) - LIFO(후입선)
+**2. 스택(Stack) - LIFO(후입선출출)**
 -가장 나중에 들어온 데이터가 가장 먼저 나간다 
 stack\<int> s;'
 s.push(10); //
@@ -36,7 +36,7 @@ s.empty(); // 비어있는지 확인 (비었으면 1, 아니면 0)
 
 return 0;
 
-3. 큐(Queue) - FIFO(선입선출)
+**3. 큐(Queue) - FIFO(선입선출)**
 -먼저 들어온 데이터가 먼저 나간다
 queue\<int> q;
 q.push(10); // 데이터 추가 (뒤로 들어감)
@@ -47,7 +47,7 @@ q.pop(); // 맨 앞 데이터 삭제
 q.size(); // 개수 확인
 q.empty(); // 비었는지 확인
 
-4.덱(Deque) - 양방향 큐()
+**4.덱(Deque) - 양방향 큐()**
 -앞, 뒤 양쪽에서 넣고 뺄 수 있음. std::vector보다 앞쪽 데이터 삭제가 훨씬 빠르다.
 deque\<int> dq;
 dq.push_front(10); // 앞으로 넣기
@@ -57,7 +57,7 @@ dq.pop_back(); // 뒤에서 빼기
 dq.front(); // 맨 앞 확인
 dq.back(); // 맨 뒤 확인
 
-5.우선순위 큐(Priority Queue)
+**5.우선순위 큐(Priority Queue)**
 데이터를 넣으면 자동으로 정렬되어 가장 큰 값or작은 값이 항상 맨 위에 옴. + A 알고리즘의 핵심
 
 // 기본은 내림차순 (큰 값이 위로)
@@ -70,7 +70,7 @@ pq.top() : 가장 우선순위가 높은(큰) 값 확인
 cout << pq.top() << endl; // 출력: 30
 pq.pop(); // 30 삭제
 
-6.벡터(vector)
+**6.벡터(vector)**
 
  (1)선언 및 초기화
  std::vector\<int> v1; // 비어있는 벡터 생성
@@ -106,7 +106,7 @@ pq.pop(); // 30 삭제
  bool found = std::binary_search(v.begin(), v.end(), 4); // 4를 찾는 이분탐색(반드시 정렬 후 사용)
  auto it = std::find(v.begin(), v.end(), 3); // 특정 값의 위치(Iterator) 찾기
 
-5. C++ 입출력 가속기
+**5. C++ 입출력 가속기**
 
 std::ios::sync_with_stdio(false);
 장점:cin과 cout의 속도를 scanf/printf 급으로 향상
@@ -115,7 +115,7 @@ std::ios::sync_with_stdio(false);
 std::cin.tie(NULL);
 입력받기전 매번 출력을 확인하는 과정을 생략해 응답속도가 최적화.
 
-6.\n과 std::endl의 비교
+**6.\n과 std::endl의 비교**
 
 \n
 -속도가 빠름
@@ -127,13 +127,13 @@ std::endl
 -출력이 즉시 기록되어 안전함
 -디버깅이나 실시간 시스템,소량 출력할때 좋음
 
-7.const 상수
+**7.const 상수**
 
 ex) bool compare(const Point& a, const Point& b) { ... }
 const 코드가 있다면 const는 이 함수 내에서 상수기 때문에 절대 변할수없음.
 만약 a=10 이런식으로 코드를 짜면 에러가 뜬다.
 
-8.구조체
+**8.구조체**
 
 // 1. 점을 나타내는 구조체 정의
 struct Point { // (x,y) 좌표를 담는 구조체
@@ -158,7 +158,7 @@ bool compare(const Point& a, const Point& b) { //a라는 상자에 x,y가 들어
 
 10.컨테이너 생성 및 응용
 
-11.컨테이너 응용
+**11.컨테이너 응용**
 
 (1)완전 전달
  (a)push_back - 삽입 : 이미 만들어진 객체를 벡터 안으로 밀어넣음
@@ -191,7 +191,7 @@ for(int i = 0; i < N; i++) {
 Member m1(25, "Gemini", 100001);// 3. push_back : "이미 만들어진 데이터(m1)가 있으니까 이
 members.push_back(m1); 건 그냥 집어넣어!"
 
-12.**설계 패러다임(Design Paradigm)** 
+**12.설계 패러다임(Design Paradigm)** 
 =>공학이나 프로그래밍에서 **문제를 바라보고 해결하는 근본적인 사고의 틀이나 방식**
 구체적인 기술보다는 이런 종류의 문제는 이런 시각으로 접근하는게 정답이다
 
@@ -237,3 +237,4 @@ int x = 50;
 int y = 20;
 
 min({x, y, 10, 5}) - 중괄호 {} 로 묶어주기.
+
