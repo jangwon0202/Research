@@ -55,16 +55,16 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "알고리즘.md",
-                "bFile": "알고리즘.md",
+                "aFile": "C++ 코드 예시.md",
+                "bFile": "C++ 코드 예시.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 알고리즘  (Working Tree)"
+              "title": "Diff: C++ 코드 예시  (Working Tree)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -262,23 +262,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "509101ecff5c6e7b",
+  "active": "b72cee4cd8e2c4ee",
   "lastOpenFiles": [
-    "게임 관련 지식들.md",
     "기타 정보.md",
+    "DFS.gif",
+    "Pasted image 20260321135512.png",
+    "C++ 코드 예시.md",
+    "게임 관련 지식들.md",
+    "README.md",
+    "Pasted image 20260321135515.png",
+    "Pasted image 20260312221243.png",
+    "Drawing 2026-03-21 17.59.55.excalidraw.md",
+    "무제",
     "알고리즘.md",
     "유니티.md",
     "자료구조.md",
-    "C++ 코드 예시.md",
-    "Pasted image 20260312221243.png",
-    "README.md",
     "주식.md",
     "게임 개발/게임 개발 draw.md",
     "게임 개발/게임 개발 text.md",
     "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
     "Excalidraw/무제.md",
     "게임 개발",
-    "무제",
     "Research/알고리즘.md",
     "Research/README.md"
   ]

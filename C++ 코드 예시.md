@@ -399,4 +399,132 @@ ms.erase(20); // 주머니 안의 모든 '20'을 삭제 -> {10, 30}
   Q.erase(it)
 ```
   
+**15.깊이 우선 탐색(DFS : Depth First Search)**
+- branch 하나를 모두 탐색한 후 다음 branch로 이동하는 방법
+- 재귀함수나 스택으로 구현함
   
+  
+탐색 순서
+1.탐색 시작 노드를 스택에 삽입(push) 후 방문처리(isVisited : True)
+2.스택의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문처리
+3.방문하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼낸다.(pop)
+4.3번을 반복
+  ![[DFS.gif]]
+**DFS(Python)**
+```
+#DFS: 한 우물만 깊게 파기(Python)
+graph = {'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': ['F'], 'F': []}
+visited = set()
+stack = ['A'] # 시작 노드
+
+def run_dfs(node):
+    if node not in visited:
+        print(node, end=' ')
+        visited.add(node)
+        for neighbor in graph[node]:
+            run_dfs(neighbor)
+
+print("Python DFS 결과:", end=' ')
+run_dfs('A') 
+```
+
+**DFS(C++)**
+```
+// DFS(재귀 방식)
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<int> adj[7] = {{}, {2, 3}, {4, 5}, {6}, {}, {6}, {}};
+bool visited[7];
+
+void dfs(int x) {
+    visited[x] = true;
+    cout << x << " ";
+    for (int next : adj[x]) {
+        if (!visited[next]) dfs(next);
+    }
+}
+
+int main() {
+    cout << "C++ DFS 결과: ";
+    dfs(1); // 1번 노드부터 시작
+    return 0;
+}
+```
+  
+  
+  
+**16.너비 우선 탐색(BFS : Breath First Search)** -특정 조건의 최단 경로 알고리즘을 계산할 때 사용
+- 시작 노드를 방문한 후 시작 노드에 있는 가까운 모든 노드들을 우선 탐색(최단 경로 탐색)
+- 큐(Queue)로 구현함.
+- 노드 방문 시, 방문 여부(isVisited)를 검사하고, 방문 시 is Visited(bool 타입)를 True로 표시
+  
+탐색 순서
+1.시작 노드를 큐에 삽입(push)하고 방문처리(isVisited : True)
+2.큐에서 노드를 꺼낸 후(pop) 해당 노드의 인접 노드 중 방문하지 않은 노드를 모두 큐에 삽입 후 방문처리
+3.2번을 반복
+
+**BFS(Python)**
+
+```
+from collections import deque
+
+# BFS: 인접한 녀석들부터 넓게 보기
+graph = {'A': ['B', 'C'], 'B': ['D', 'E'], 'C': ['F'], 'D': [], 'E': ['F'], 'F': []}
+visited = {'A'}
+queue = deque(['A'])
+
+print("Python BFS 결과:", end=' ')
+while queue:
+    node = queue.popleft()
+    print(node, end=' ')
+    for neighbor in graph[node]:
+        if neighbor not in visited:
+            visited.add(neighbor)
+            queue.append(neighbor)
+# 출력: A B C D E F
+```
+
+**BFS(C++)**
+```
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int main() {
+    vector<int> adj[7] = {{}, {2, 3}, {4, 5}, {6}, {}, {6}, {}};
+    bool visited[7] = {false};
+    queue<int> q;
+
+    q.push(1);
+    visited[1] = true;
+
+    cout << "C++ BFS 결과: ";
+    while (!q.empty()) {
+        int x = q.front();
+        q.pop();
+        cout << x << " ";
+        for (int next : adj[x]) {
+            if (!visited[next]) {
+                visited[next] = true;
+                q.push(next);
+            }
+        }
+    }
+    return 0;
+}
+```
+
+
+**17.memset함수**
+- 메모리의 내용(값)을 원하는 크기만큼 특정 값으로 세팅할 수 있는 함수
+- 
+```
+#include <cstring>
+
+memset(배열이름, 채울 값, 배열크기);
+```
+
+
