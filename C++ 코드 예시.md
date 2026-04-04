@@ -22,7 +22,7 @@
  (1)  string  - std::string 객체를 다룸
  (2)  memory  - 스마트 포인터(unique_ptr, shared_ptr)를 지원. 메모리 누수를 막을때 사용
  
-**2. 스택(Stack) - LIFO(후입선출출)**
+**2. 스택(Stack) - LIFO(후입선출)**
 -가장 나중에 들어온 데이터가 가장 먼저 나간다 
 ```
 stack<int> s;'
@@ -399,7 +399,7 @@ ms.erase(20); // 주머니 안의 모든 '20'을 삭제 -> {10, 30}
   Q.erase(it)
 ```
   
-**15.깊이 우선 탐색(DFS : Depth First Search)**
+**15.깊이 우선 탐색(DFS : Depth First Search) : 일단 끝까지 가봐라**
 - branch 하나를 모두 탐색한 후 다음 branch로 이동하는 방법
 - 재귀함수나 스택으로 구현함
   
@@ -455,7 +455,8 @@ int main() {
   
   
   
-**16.너비 우선 탐색(BFS : Breath First Search)** -특정 조건의 최단 경로 알고리즘을 계산할 때 사용
+**16.너비 우선 탐색(BFS : Breath First Search) : 내 주변부터 다 봐라**  
+- 특정 조건의 최단 경로 알고리즘을 계산할 때 사용
 - 시작 노드를 방문한 후 시작 노드에 있는 가까운 모든 노드들을 우선 탐색(최단 경로 탐색)
 - 큐(Queue)로 구현함.
 - 노드 방문 시, 방문 여부(isVisited)를 검사하고, 방문 시 is Visited(bool 타입)를 True로 표시
@@ -528,3 +529,34 @@ memset(배열이름, 채울 값, 배열크기);
 ```
 
 
+**18.소수점 자리 표기**
+
+```
+#include <iostream>
+#include <iomanip>
+int main() {
+	double val = 12.345678;
+	
+	// 1. 기본 상태 std::cout << "기본: " << val << "\n"; // 12.3457 (6자리 반올림)
+	 
+	// 2. 소수점 한 자리 고정
+	std::cout << std::fixed << std::setprecision(1);
+	std::cout << "설정: " << val << "\n"; // 12.3
+	
+	// 3. 다시 해제 (Reset)
+	// defaultfloat가 fixed와 과학적 표기법(scientific) 설정을 모두 초기화
+	std::cout << std::defaultfloat << std::setprecision(6);
+	std::cout << "해제: " << val << "\n"; // 12.3457
+	
+	return 0;
+}
+
+
+```
+
+
+**기타**
+
+isupper - 대문자면 참, 아니면 거짓
+islower - 소문자면 참, 아니면 거짓
+isdigit - 숫자(0~9)면 참, 아니면 거짓
