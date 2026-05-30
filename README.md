@@ -29,3 +29,31 @@ $\equiv$ (\equiv) - 합동 혹은 정의됨
 
 8.루트
 $\sqrt{2}$
+
+9.
+$e_1$  $e_5$
+
+10.행렬
+$\begin{bmatrix} a & b \\ c & d \end{bmatrix}$
+
+
+$\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$
+
+$\begin{bmatrix} -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \times \begin{bmatrix} X \\ Y \\ Z \\ 1 \end{bmatrix}$
+
+$\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$
+
+$\begin{matrix} 1 & 2 \\ 3 & 4 \end{matrix}$
+
+$\begin{vmatrix} 1 & 2 \\ 3 & 4 \end{vmatrix}$
+
+11.삼각함수
+$\cos\theta$
+$\sin\theta$
+$\tan\theta$
+$\arccos\theta$
+$\arcsin\theta$
+$\arctan\theta$
+$\cos^{-1}\theta$
+$\sin^{-1}\theta$
+$\tan^{-1}\theta$
