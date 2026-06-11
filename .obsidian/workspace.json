@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc16941c237d8b7b",
+        "id": "ac9727d80cbd878e",
         "type": "tabs",
         "children": [
           {
-            "id": "78f1749bac6dce32",
+            "id": "add466e2e3e385e5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "진로/진로.md",
-                "bFile": "진로/진로.md",
-                "aRef": ""
+                "file": "진로/정보처리기사.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 진로  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "정보처리기사"
             }
           }
         ]
@@ -219,14 +219,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "78f1749bac6dce32",
+  "active": "add466e2e3e385e5",
   "lastOpenFiles": [
-    "진로/3D 그래픽스 커리큘럼.md",
-    "그래픽스/생소한 단어 지식 정리.md",
-    "진로/진로.md",
-    "진로/정보처리기사.md",
-    "게임/게임 관련 지식들.md",
     "코딩 + 지식/기타 정보.md",
+    "진로/정보처리기사.md",
+    "그래픽스/생소한 단어 지식 정리.md",
+    "진로/3D 그래픽스 커리큘럼.md",
+    "진로/진로.md",
+    "게임/게임 관련 지식들.md",
     "그래픽스/머티리얼/머티리얼.md",
     "그래픽스/CG 생산력 높이는 설계.md",
     "Pasted image 20260531232518.png",
