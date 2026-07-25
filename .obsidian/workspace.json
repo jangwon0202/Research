@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩 + 지식/C++ 코드 예시.md",
+                "file": "그래픽스/게임수학/수학.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++ 코드 예시"
+              "title": "수학"
             }
           }
         ]
@@ -219,22 +219,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "add466e2e3e385e5",
+  "active": "d9c0a471e2cf4266",
   "lastOpenFiles": [
-    "진로/정보처리기사.md",
-    "Pasted image 20260615204242.png",
-    "코딩 + 지식/기타 정보.md",
-    "그래픽스/생소한 단어 지식 정리.md",
-    "진로/3D 그래픽스 커리큘럼.md",
-    "진로/진로.md",
-    "게임/게임 관련 지식들.md",
-    "그래픽스/머티리얼/머티리얼.md",
+    "그래픽스/개념 노트.md",
     "그래픽스/CG 생산력 높이는 설계.md",
+    "그래픽스/생소한 단어 지식 정리.md",
+    "그래픽스/게임수학/수학.md",
+    "Pasted image 20260725170704.png",
+    "그래픽스/머티리얼/머티리얼.md",
+    "그래픽스/게임수학",
+    "수학/수학.md",
+    "무제.canvas",
+    "진로/진로.md",
+    "코딩 + 지식/알고리즘.md",
+    "코딩 + 지식/자료구조.md",
+    "코딩 + 지식/C++ 코드 예시.md",
+    "코딩 + 지식/기타 정보.md",
+    "진로/정보처리기사.md",
+    "진로/3D 그래픽스 커리큘럼.md",
+    "유니티/유니티.md",
+    "프로젝트/숨바꼭질 게임/제작 로드맵.md",
+    "프로젝트/숨바꼭질 게임/게임 프로젝트(숨바꼭질) 기획.md",
+    "프로젝트/숨바꼭질 게임/핵심 아키텍처.md",
+    "프로젝트/숨바꼭질 게임",
+    "프로젝트",
+    "Pasted image 20260615204242.png",
+    "게임/게임 관련 지식들.md",
     "Pasted image 20260531232518.png",
     "Pasted image 20260531232514.png",
     "Pasted image 20260531204543.png",
     "그래픽스/머티리얼",
-    "코딩 + 지식/C++ 코드 예시.md",
     "README.md",
     "DFS.gif",
     "Pasted image 20260531030730.png",
@@ -245,26 +259,13 @@
     "언리얼엔진/언리얼엔진.md",
     "유니티",
     "언리얼엔진",
-    "코딩 + 지식/알고리즘.md",
-    "수학/수학.md",
     "수학",
     "함수",
-    "코딩 + 지식",
-    "게임",
-    "그래픽스",
     "Pasted image 20260531014856.png",
     "Pasted image 20260531014557.png",
     "언리얼엔진/언리얼엔진 키워드.md",
     "Pasted image 20260529233214.png",
-    "Pasted image 20260526221152.png",
-    "유니티/유니티.md",
-    "코딩 + 지식/자료구조.md",
     "Drawing 2026-03-21 17.59.55.excalidraw.md",
-    "주식.md",
-    "게임 개발/게임 개발 draw.md",
-    "게임 개발/게임 개발 text.md",
-    "Excalidraw/Drawing 2026-03-11 17.53.31.excalidraw.md",
-    "Excalidraw/무제.md",
-    "Research/알고리즘.md"
+    "주식.md"
   ]
 }
