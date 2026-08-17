@@ -555,6 +555,11 @@ int main() {
 ```
 
 
+**19.struct 구조체**
+
+- struct는 기본 접근 제어자가 public임
+- class는 기본 접근 제어자가 private
+
 **기타**
 
 isupper - 대문자면 참, 아니면 거짓

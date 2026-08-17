@@ -57,3 +57,25 @@ $\arctan\theta$
 $\cos^{-1}\theta$
 $\sin^{-1}\theta$
 $\tan^{-1}\theta$
+
+12.각도
+$2^\circ$
+
+13.함수
+$y_0 = \frac{h}{w}x_0 + b$
+
+①, ②, ③ (ㅇ한자키)
+
+<mark>색깔적용</mark>
+
+$\color{orange}{4h - 3w < 0}$
+$\color{#e67e22}{4h - 3w < 0}$
+
+$\boxed{4h - 3w < 0}$
+
+
+$\bbox[#ffeaa7, 4px]{4h - 3w < 0}$
+$\bbox[#fff3cd, 4px, border: 1px solid #e0a800]{\color{#d35400}{4h - 3w < 0}}$
+$\bbox[yellow]{4h - 3w < 0}$ 이거씀
+$\bbox[orange]{4h - 3w < 0}$
+`$4h - 3w < 0$`
