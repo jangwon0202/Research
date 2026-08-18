@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "41f7fa4de985fe0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e74531a686d55971",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c0b90397214bdb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "그래픽스/게임수학/수학.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "수학"
+            }
+          },
+          {
+            "id": "ed057ac06ade23a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "게임/게임 관련 지식들.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "게임 관련 지식들"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce799a911bce42e4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b533ffd62c33f95a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "파일 탐색기"
+        }
+      },
+      {
+        "id": "411a1748704684db",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "검색"
+        }
+      },
+      {
+        "id": "b87d5ecede27f163",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "태그"
+        }
+      },
+      {
+        "id": "60401e4be2c261fa",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "모든 속성"
+        }
+      },
+      {
+        "id": "59501c3cb0638b27",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "북마크"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1022f1ea4deb567d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1e587937eb027283",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "게임/게임 관련 지식들.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "백링크"
+        }
+      },
+      {
+        "id": "e563e667d6e5833e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "게임/게임 관련 지식들.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "나가는 링크"
+        }
+      },
+      {
+        "id": "ad0a5b0c636f0260",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "게임/게임 관련 지식들.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "개요"
+        }
+      },
+      {
+        "id": "cabb1c086211c1f4",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw-sidepanel",
+          "state": {},
+          "icon": "excalidraw-icon",
+          "title": "Excalidraw Sidepanel"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "zk-prefixer:새 고유 노트 생성": false
+    }
+  },
+  "active": "ed057ac06ade23a5",
+  "lastOpenFiles": [
+    "Ink/Drawing/Draw.svg",
+    "2026-08-18.md",
+    "Pasted image 20260531232518.png",
+    "Ink/Drawing",
+    "Ink",
+    "Excalidraw/Drawing 2026-08-18 08.59.09.excalidraw.md",
+    "Excalidraw",
+    "무제 2.md",
+    "무제",
+    "그래픽스/게임수학/수학.md",
+    "게임/게임 관련 지식들.md",
+    "무제 1.md",
+    "Excalidraw/Drawing 2026-08-18 08.43.39.excalidraw.md",
+    "그래픽스/머티리얼/머티리얼.md",
+    "그래픽스/게임수학/+.md",
+    "함수/함수 정리 1.md",
+    "함수/선형대수 함수 정리.md",
+    "코딩 + 지식/자료구조.md",
+    "코딩 + 지식/오픈소스 C++라이브러리.md",
+    "코딩 + 지식/알고리즘.md",
+    "코딩 + 지식/기타 정보.md",
+    "코딩 + 지식/그래픽스 C++.md",
+    "코딩 + 지식/C++ 코드 예시.md",
+    "진로/진로.md",
+    "진로/정보처리기사.md",
+    "진로/3D 그래픽스 커리큘럼.md",
+    "유니티/유니티.md",
+    "언리얼엔진/언리얼엔진.md",
+    "언리얼엔진/언리얼엔진 키워드.md",
+    "수학/수학.md",
+    "수학/CG 생산력 높이는 설계.md",
+    "Pasted image 20260816130218.png",
+    "Pasted image 20260810203652.png",
+    "Pasted image 20260810202512.png",
+    "Pasted image 20260810202021.png",
+    "Pasted image 20260725170704.png",
+    "Pasted image 20260615204242.png",
+    "Pasted image 20260531232514.png",
+    "Pasted image 20260531204543.png",
+    "함수",
+    "코딩 + 지식",
+    "진로",
+    "유니티",
+    "언리얼엔진",
+    "수학",
+    "무제.canvas"
+  ]
+}
