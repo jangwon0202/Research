@@ -1,4 +1,5 @@
 {
   "accentColor": "#f4b4f9",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "showRibbon": true
 }
