@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "그래픽스/HLSL.md",
+                "file": "그래픽스/게임수학/수학.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HLSL"
+              "title": "수학"
             }
           }
         ],
@@ -239,14 +239,19 @@
   },
   "active": "f97bd3921bdfa9d5",
   "lastOpenFiles": [
+    "그래픽스/머티리얼/머티리얼.md",
+    "그래픽스/게임 개발 포트폴리오.md",
+    "그래픽스/생소한 단어 지식 정리.md",
+    "그래픽스/셰이더.md",
+    "그래픽스/HLSL.md",
+    "Pasted image 20261124224120.png",
+    "Pasted image 20261124224108.png",
+    "Pasted image 20261124214834.png",
+    "Pasted image 20261124214823.png",
     "Pasted image 20261123225839.png",
     "Pasted image 20261123225825.png",
     "그래픽스/C++.md",
-    "그래픽스/HLSL.md",
     "그래픽스/C#.md",
-    "그래픽스/셰이더.md",
-    "그래픽스/생소한 단어 지식 정리.md",
-    "그래픽스/게임 개발 포트폴리오.md",
     "잡다한 것.md",
     "그래픽스/개념 노트.md",
     "그래픽스/게임수학/수학.md",
@@ -262,19 +267,13 @@
     "Pasted image 20261121201154.png",
     "Pasted image 20261116203431.png",
     "Pasted image 20261116192052.png",
-    "Pasted image 20261116175556.png",
-    "Pasted image 20261116175337.png",
     "게임/게임 관련 지식들.md",
     "202611151806.md",
-    "Pasted image 20261115144116.png",
-    "Pasted image 20261115143756.png",
-    "Pasted image 20261115143317.png",
     "README.md",
     "202610262218.md",
     "202610262217.md",
     "202610262216.md",
     "202608212243.md",
-    "그래픽스/머티리얼/머티리얼.md",
     "무제.base",
     "Ink/Drawing",
     "Ink",
